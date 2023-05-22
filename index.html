@@ -1,0 +1,74 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list">
+        
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <header class="main__hero">
+      <h1>Let's go travel </h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Section 1" class="your-active-class">
+      <div class="landing__container">
+        <h2>Section 1</h2>
+        <p>The traveling website is a comprehensive platform that caters to the wanderlust of adventurers and globe-trotters. With its sleek design and user-friendly interface, the website offers a vast array of resources and tools to plan the perfect journey. From browsing destination guides and immersive travel blogs to discovering the best flight and hotel deals, the website serves as a one-stop hub for all travel-related needs. With a wide range of filters and search options, users can easily customize their preferences and find tailored recommendations. The website also provides insightful reviews and ratings from fellow travelers, ensuring an informed decision-making process. With its commitment to seamless user experience and a wealth of valuable information, the traveling website is a trusted companion for individuals seeking to explore the world and create unforgettable memories.</p>
+
+        
+      </div>
+    </section>
+    <section id="section2" data-nav="Section 2">
+      <div class="landing__container">
+        <h2>Section 2</h2>
+        <p>Welcome to our extraordinary traveling website, where the wonders of the world await your discovery. Embark on a virtual journey through our visually captivating platform, designed to inspire and ignite your wanderlust. Our website showcases a vast collection of breathtaking destinations, from hidden gems off the beaten path to iconic landmarks that have stood the test of time. Immerse yourself in rich travel narratives, beautifully written articles, and captivating imagery that will transport you to far-off lands. Plan your dream vacation effortlessly by exploring our curated itineraries, expert travel tips, and personalized recommendations tailored to your preferences. Discover a treasure trove of exclusive deals on flights, accommodations, and unique experiences that will enhance your travel experience. With our intuitive interface and seamless booking process, your travel arrangements are made effortlessly. Let our traveling website be your passport to adventure, connecting you to the world's most enchanting destinations and creating memories that will last a lifetime.</p>
+
+      </div>
+    </section>
+    <section id="section3" data-nav="Section 3">
+      <div class="landing__container">
+        <h2>Section 3</h2>
+        <p> Our traveling website offers a multitude of benefits and exciting opportunities for travelers of all kinds. Here are some key advantages and features that make our platform truly exceptional:
+
+          Extensive Destination Coverage: Our website provides comprehensive information on a wide range of destinations, both popular and off-the-beaten-path. Whether you're seeking a tropical beach getaway, an adventurous mountain trek, or a culturally immersive city exploration, we've got you covered.
+          
+          Personalized Recommendations: We understand that every traveler is unique, which is why our website utilizes advanced algorithms and user preferences to offer personalized recommendations. Tailored itineraries, accommodation suggestions, and activity recommendations ensure that your travel plans align perfectly with your interests and preferences.</p>
+
+        <p>Exclusive Deals and Discounts: We have established partnerships with airlines, hotels, and local service providers to bring you exclusive deals and discounts. Through our website, you can find competitive prices on flights, accommodations, tours, and more, helping you save money while experiencing the best that your chosen destination has to offer.</p>
+      </div>
+    </section>
+    <section id="section4" data-nav="Section 4">
+      <div class="landing__container">
+        <h2>Section 4</h2>
+        <p>User Reviews and Ratings: We believe in the power of authentic feedback, which is why our platform includes a robust review and rating system. This allows fellow travelers to share their experiences and insights, providing you with valuable information when making decisions about accommodations, restaurants, attractions, and more.
+
+          Interactive Maps and Guides: Our website features interactive maps that enable you to explore destinations with ease. You can access detailed city guides, highlighting top attractions, hidden gems, local recommendations, and essential information about each location. The maps also offer convenient navigation features to help you plan your itinerary and make the most of your time.</p>
+
+        <p>Travel Community and Social Features: Connect with like-minded travelers through our website's vibrant travel community. Share your experiences, seek advice, and engage in discussions with fellow globetrotters from around the world. Our social features foster a sense of camaraderie and provide opportunities for networking and building meaningful connections.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <p>&copy Udacity</p>
+  </footer>
+<script src="js/app.js"> </script>
+</body>
+</html>
