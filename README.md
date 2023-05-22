@@ -1,4 +1,4 @@
-# Landing Page Project
+# Traveling Agency
 # Project Description
 An interactive landing page by using html and css and js, the page has 4 sections add 4 sections in navbar which is built dynamically added dynamically if we click on section in the navbar menu it goes automatically to the related section and it highlighted in navbar which section is active and main section in the page also has different style when it is active,when scroll it scrolls smooth not fast and active section appears
 # Table of contents
